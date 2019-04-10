@@ -34,7 +34,7 @@ var friendsData = [
         },
         {
         "name": "Hillary Clinton",
-        "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+        "photo": "https://media.fox35orlando.com/media.fox35orlando.com/photo/2019/01/13/GETTY_hillary%20clinton_011319_1547407554007.png_6620473_ver1.0_640_360.jpg",
         "scores": [
         "4",
         "2",
@@ -49,19 +49,19 @@ var friendsData = [
         ]
         },
         {
-        "name": "Horatio de Jesus y Arrebola y LLopiz",
+        "name": "Horatio de Jesus y Arrebola y Llopiz",
         "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
         "scores": [
+        "2",
+        "3",
+        "3",
+        "3",
+        "5",
+        "5",
+        "3",
+        "5",
         "1",
-        "1",
-        "1",
-        "1",
-        "1",
-        "1",
-        "1",
-        "1",
-        "1",
-        "1"
+        "3"
         ]
         },
         {
@@ -132,14 +132,14 @@ var friendsData = [
         "name": "The Whole Friggin' Crew",
         "photo": "https://i.imgur.com/mnnig78.jpg",
         "scores": [
-        "3",
-        "2",
-        "3",
         "1",
-        "2",
-        "5",
-        "3",
-        "5",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
         "1",
         "1"
         ]
