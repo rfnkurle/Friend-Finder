@@ -9,7 +9,7 @@ app.use(express.json());
 app.listen(PORT, function() {
     console.log(`App listening on PORT `+ PORT);
 });
-
+//links to html front end
 app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "App/public/home.html"));
 });

@@ -9,7 +9,7 @@ module.exports = function (app) {
     
     
     });
-
+//creates variables that will be used to create friends match algorithm
     app.post("/api/friends", function (req, res) {
         var newFriendsInfo = req.body;
         var userResponse = newFriendsInfo.scores;
@@ -21,10 +21,10 @@ module.exports = function (app) {
         var totalDifference = Infinity;
         
         
-    
+    //cycles through eat object in the array "FriendsData"
     for (var i = 0; i < friendsData.length; i++) {
             var difference = 0;
-    
+    //for each object in friends data, finds the differnce in userinput score and friendsData scores
             for (var j = 0; j < userResponse.length; j++) {
                 difference += Math.abs(parseInt(userResponse[j]) - parseInt(friendsData[i].scores[j]));
             }
@@ -36,7 +36,7 @@ module.exports = function (app) {
             }
             
         }
-    
+    //puts user's into into local API
         friendsData.push(newFriendsInfo)
             res.json({status: "OK", matchName: matchName, matchImage: matchImage});
     
